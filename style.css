@@ -1,0 +1,80 @@
+/* Resetting default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#pic{
+    border-radius: 8%;
+    height: 500px;
+    padding-left: 35%;
+}
+p{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* Navbar Styling */
+nav {
+    background-color:burlywood;  /* background color */
+    text-align: center;
+}
+
+/* Navbar List Styling */
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;  /* Align the items horizontally */
+    gap: 30px;  /* Space between menu items */
+}
+
+/* Navbar Item Styling */
+.nav-item {
+    display: inline-block;
+}
+
+/* Link Styling */
+.nav-item a {
+    text-decoration: none;
+    color:white;  /*  text color */
+    padding: 10px 15px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;  /*  hover effect */
+}
+
+.nav-item a:hover {
+    background-color:beige;  /* background on hover */
+    color:beige;  /* Light text on hover */
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .nav-list {
+        flex-direction: column;  /* Stack items vertically on small screens */
+        gap: 10px;
+    }
+
+    .nav-item a {
+        padding: 15px;
+        font-size: 18px;
+    }
+}
+.logo{
+    border-radius: 20%;
+    height: 200px;
+    gap: 30px;
+}
+body{
+    background-image: url(./pink.webp );
+    background-size: cover;
+
+}
+.pro{
+    border-radius: 8%;
+    height: 400px;
+}
